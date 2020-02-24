@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sam Card</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css\sam.css">
+  </head>
+<body> 
+ <h2>Card Deck</h2> <br>
+ <div class="container-fluid">
+ 
+   <div class="card-container1" id="sam1">
+    <div class="card" id="left">
+      <div class="card-body text-center">
+	  <div class="cntainr3">
+	  <div class="cntainr3_text"><p2>Login</p2></div> 
+	  <img class = "cntainr3_img"  src = "css\images\logo.png" height="30"/> </div>
+     <hr>	 
+<div class="form-group" id="inform">	 
+    <form action="login.php" method="POST">
+	  <div class="cntainr3">
+	  <div class="cnm">Email<sup>*</sup></div> 
+	  <img class = "cntainr3_img"  src = "css\images\ic_mail.png" height="13"/> </div>
+	  <input class="input999" type="text" name="email" placeholder=" ">
+						<span class="focus-input999"></span>
+	  <div class="cntainr3">
+	  <div class="cnp">Password<sup>*</sup></div> 
+	  <img class = "cntainr3_img"  src = "css\images\ic_lock.png" height="15"/> </div>
+	  <input class="input999" type="password" name="pass" placeholder=" ">
+			
+			<div class="cntainr3">
+			<button type="submit" class="btn btn-warning">Login</button> </div>
+			<div class="cntainr4">
+                    <a href="forgot.php" class="forget" >Forgot?</a></div>
+	  	 </form>
+		 </div>
+		</div>
+    </div>
+	</div>
+	<div class="card-container2" id="sam2">
+    <div class="card" id="right">
+      <div class="card-body text-center">
+			<div class="cntainr5">
+	  <div class="cntainr3_text"><p2>Sign Up</p2></div> 
+	  <img class = "cntainr3_img"  src = "css\images\logo.png" height="30"/> </div>
+     <hr>	 
+			<div class="form-group" id="upform">
+                            <form action="register.php" method="POST">
+		   <div class="cntainr6">
+	  <div class="cnm">Name<sup>*</sup></div> 
+	  <img class = "cntainr3_img"  src = "css\images\ic_user.png" height="15"/> </div>
+	  <input class="input999" type="text" name="name" placeholder=" ">
+	  <div class="cntainr6">
+	  <div class="cnm">Email<sup>*</sup></div> 
+	  <img class = "cntainr3_img"  src = "css\images\ic_mail.png" height="13"/> </div>
+	  <input class="input999" type="text" name="email" placeholder=" ">
+						<span class="focus-input999"></span>
+	  <div class="cntainr6">
+	  <div class="cnp">Password<sup>*</sup></div> 
+	  <img class = "cntainr3_img"  src = "css\images\ic_lock.png" height="15"/> </div>
+	  <input class="input999" type="password" name="pass" placeholder=" ">
+			<span class="focus-input999"></span>
+			<div class="cntainr3">
+			<button type="submit" class="btn btn-warning">Sign Up</button> </div>
+	  				 </form>
+            </div>
+      </div>
+    </div> 
+    </div>	
+	<div>
+			<button class="button" id="Left"> Sign Up</button> &nbsp
+			<button class="button" id="Right"> Login </button>
+</div>
+</div>
+
+	<script src= "js\sam.js"></script>
+ <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
+
+</body>
+</html>

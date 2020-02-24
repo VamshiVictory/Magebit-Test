@@ -1,0 +1,49 @@
+@media only screen and (max-width:977px) {
+    .col-sm-6 {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+    .login-panel {
+        width: 90%;
+    }
+    .form-panel {
+        width: 50%;
+        position: relative;
+        left: auto;
+        padding-top: 220px;
+        margin: 0 auto;
+        border: 1px solid rgb(73, 171, 254);
+    }
+    .forget {
+        position: relative;
+        left: 10px;
+        margin: 0 auto;
+    }
+    label,
+    h3.with-logo {
+        background: none !important;
+    }
+    h3.with-logo {
+        position: relative;
+        top: -170px;
+    }
+    hr {
+        display: none !important;
+    }
+    input {
+        width: 90% !important;
+    }
+    .login-switch.mobile {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:660px) {
+    .form-panel {
+        width: 80%;
+    }
+}
